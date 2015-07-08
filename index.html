@@ -2,9 +2,7 @@
 <html>
   <head>
     <title>Google Maps API</title>
-    <style type="text/css">
-      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
-    </style>
+
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxub1MvXfBOkVDQZ87aCjxPMmibGe3o8k">
     </script>
@@ -29,17 +27,19 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
     <style>
-    body {
-      font-family: sans-serif;
-    }
-    h1, p{
-      text-align: center;
-    }
-    #map-canvas {
-      width: 50%;
-      height: 50%;
-      margin: 50px auto;
-    }
+      html, body { height: 100%; margin: 0; padding: 0;}
+      body {
+        font-family: sans-serif;
+      }
+      h1, p{
+        text-align: center;
+      }
+      #map-canvas {
+        width: 50%;
+        height: 50%;
+        margin: 50px auto 0 auto;
+        padding: 0;
+      }
 
     </style>
 
